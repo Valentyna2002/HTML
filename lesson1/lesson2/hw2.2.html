@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .box{
+      background-color: red;
+      height: 100px;
+      width: 100px;
+      transition: 2s;
+    }
+    .flex{
+      height: 500px;
+      background-color: bisque;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+    .box:hover{
+      background-color: gray;
+      border-radius: 50%;
+      transition: 2s;
+      transform: scale(1.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="flex">
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+  </div>
+</body>
+</html>
